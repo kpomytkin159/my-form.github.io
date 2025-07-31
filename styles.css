@@ -1,0 +1,187 @@
+body {
+
+    background-image: url(https://i.pinimg.com/originals/9e/3b/38/9e3b38ad2fdcc5b5014159ae2edd30c4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+input {
+
+    width: 70%;
+    height: 10vh;
+    margin: 0px auto;
+    border-radius: 30px;
+    font-family: verdana;
+    font-weight: 10;
+    font-size: 100%;
+    background: transparent;
+    border-color: white;
+    text-align: center;
+    
+    
+
+
+    
+    
+    
+    
+}
+
+input:focus {
+
+    color: white;
+    border-color: rgb(57, 145, 233);
+}
+
+input::placeholder {
+
+    color: white;
+}
+
+input:active{
+
+    border-color: rgb(58, 145, 233);
+}
+
+.btn {
+    position: relative;
+    width: 40%;
+    height: 10vh;
+    left: 30%;
+    top: 30vh;
+    border-radius: 25px;
+    background: transparent;
+    border-color: white;
+    color: white;
+    font-family: verdana;
+    font-weight: 10;
+    font-size: 100%;
+    
+}
+
+.btn:active {
+
+    background-color: rgb(40, 179, 40);
+}
+
+.btn:hover {
+
+    border-color: rgb(47, 194, 47);
+}
+
+.password {
+
+    position: relative;
+    top: 25vh;
+}
+
+
+.tel {
+
+    position: relative;
+    top: 20vh;
+}
+
+.email {
+
+    position: relative;
+    top: 15vh;
+}
+
+.text {
+
+    position: relative;
+    top: 10vh;
+}
+
+.content {
+
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.container {
+
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 90vh;
+    width: 50%;
+    margin: 0px auto;
+    border-radius: 25px;
+    
+}
+
+@media screen and (min-width:820px) {
+
+    .container {
+        position: relative;
+        width: 80%;
+        top: 4vh;
+        
+    }
+
+    input {
+
+        border-radius: 10vh;
+        width: 90%;
+        font-size: 180%;
+        font-weight: 10;
+        font-family: verdana;
+    }
+
+    .btn {
+        position: relative;
+        width: 60%;
+        left: 14vh;
+        font-size: 180%;
+        border-radius: 10vh;
+    }
+
+    .btn:active {
+
+        background-color: rgb(47, 187, 47);
+        
+    }
+
+    
+
+
+}
+
+@media screen and (min-width:369px) {
+
+    .container {
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        left: 0%;
+        top: 3vh;
+
+        
+    }
+
+    .btn {
+
+        font-size: 100%;
+        width: 60%;
+        left: 22%;
+        border-radius: 10vh;
+    }
+
+    input {
+
+        font-size: 110%;
+        width: 90%;
+        border-radius: 10vh;
+    }
+
+    
+}
+
